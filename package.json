@@ -1,0 +1,15 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel serve src/index.html src/step-2.html src/step-3.html src/step-4.html",
+    "build": "parcel build src/index.html src/step-2.html src/step-3.html src/step-4.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
